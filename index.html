@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Header Section</h1>
+    </div>
+    <div class="bg">
+      <h1 class="heading">Student Registration Form</h1>
+      <form class="form">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter Full Name" />
+        </div>
+        <div>
+          <label for="fname">Father's Name:</label>
+          <input type="text" id="fname" />
+        </div>
+        <div>
+          <label for="mname">Mother's Name:</label>
+          <input type="text" id="mname" />
+        </div>
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input type="text" id="phone" placeholder="017xxxxxxx" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email" placeholder="sample@example.com" />
+        </div>
+        <div>
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" value="Male" />
+          Male
+          <input type="radio" id="female" value="Female" />Female
+          <input type="radio" id="other" value="Other" />Other
+        </div>
+        <div>
+          <label for="dob">Date of Birth:</label>
+          <input type="text" name="date" id="dob" /> -
+          <input type="text" name="mpnth" id="dob" /> -
+          <input type="text" name="year" id="dob" />
+          (dd-mm-yyyy)
+        </div>
+        <div>
+          <label for="address">Address:</label>
+          <input
+            type="text"
+            id="address"
+            placeholder="Street:- House:- Road:- "
+          />
+        </div>
+        <div>
+          <label for="Blood Group">Blood Group:</label>
+          <select id="Blood Group">
+            <option value="a+">A+</option>
+            <option value="b+">B+</option>
+            <option value="ab+">AB+</option>
+            <option value="o+">O+</option>
+            <option value="b-">B-</option>
+            <option value="a-">A-</option>
+            <option value="ab-">AB-</option>
+            <option value="o-">O-</option>
+          </select>
+        </div>
+        <div>
+          <label for="dept">Department:</label>
+          <input type="radio" id="cse" value="CSE" />
+          CSE
+          <input type="radio" id="eee" value="EEE" />
+          EEE
+          <input type="radio" id="bba" value="BBA" />
+          BBA
+        </div>
+        <div>
+          <label for="course">Course:</label>
+          <input type="checkbox" name="C" id="c" />
+          C
+          <input type="checkbox" name="C++" id="c++" />
+          C++
+          <input type="checkbox" name="Java" id="java" />
+          JAVA
+          <input type="checkbox" name="ai" id="AI" />
+          AI
+          <input type="checkbox" name="ml" id="ml" />
+          Machine Learning
+          <input type="checkbox" name="robo" id="Robotics" />
+          Robotics
+        </div>
+        <div>
+          <label for="photo">Photo:</label>
+          <input type="file" name="file" id="file" />
+        </div>
+        <a href="#" class="submit">Submit</a>
+        <button class="reset">Reset</button>
+      </form>
+    </div>
+    <h1>
+      A static table to display 3 records - columns (SNo, Name, Phone no,
+      Gender, City, Hobbies(hobbies will span over multiple rows))
+    </h1>
+    <table>
+      <tr>
+        <th>SNo</th>
+        <th>Name</th>
+        <th>Phone no</th>
+        <th>Gender</th>
+        <th>City</th>
+        <th>Hobbies</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Madhav</td>
+        <td>1234567890</td>
+        <td>Male</td>
+        <td>Gurugram</td>
+        <td rowspan="2">Hockey,Football</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Kusum</td>
+        <td>2872821982</td>
+        <td>Female</td>
+        <td>Delhi</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Vishvas</td>
+        <td>1234567890</td>
+        <td>Male</td>
+        <td>Mumbai</td>
+        <td>Cricket,Basketball</td>
+      </tr>
+    </table>
+    <h1>Demo For Positions</h1>
+    <div class="pos">
+      <div class="box2"></div>
+    </div>
+    <h1 id="float">Demo For Float</h1>
+    <div class="float">
+      <div class="bx1"></div>
+      <div class="bx2"></div>
+    </div>
+    <h1>Demo For Display</h1>
+    <div class="flex">
+      <div class="boxa"></div>
+      <div class="boxb"></div>
+    </div>
+    <h1>Demo For visibility</h1>
+    <div class="vis">
+      <h2 class="a">Below Heading is not visible visible</h2>
+      <h2 class="b">This heading is hidden</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
+        exercitationem.
+      </p>
+    </div>
+  </body>
+</html>
